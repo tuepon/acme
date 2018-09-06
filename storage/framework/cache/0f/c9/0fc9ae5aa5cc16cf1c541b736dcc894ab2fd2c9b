@@ -1,7 +1,19 @@
-1536162424a:1:{s:8:"home.htm";a:10:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:120:"title = "Home"
+1536245785a:1:{s:8:"home.htm";a:10:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:321:"title = "Home"
 url = "/"
 layout = "default"
 description = "This is the homepage"
 is_hidden = 0
 ==
-<h1>Welcome</h1>";s:5:"mtime";i:1536161815;s:6:"markup";s:16:"<h1>Welcome</h1>";s:4:"code";N;s:5:"title";s:4:"Home";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:11:"description";s:20:"This is the homepage";s:9:"is_hidden";s:1:"0";}}
+<div class="jumbotron text-center">
+    <h1>{{this.theme.site_name}}</h1>
+    <p>{{this.theme.site_description}}</p>
+    <p>
+        <a href="{'about'|page}" class="btn btn-default">Read More</a>
+    </p>
+</div>";s:5:"mtime";i:1536245182;s:6:"markup";s:217:"<div class="jumbotron text-center">
+    <h1>{{this.theme.site_name}}</h1>
+    <p>{{this.theme.site_description}}</p>
+    <p>
+        <a href="{'about'|page}" class="btn btn-default">Read More</a>
+    </p>
+</div>";s:4:"code";N;s:5:"title";s:4:"Home";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:11:"description";s:20:"This is the homepage";s:9:"is_hidden";s:1:"0";}}

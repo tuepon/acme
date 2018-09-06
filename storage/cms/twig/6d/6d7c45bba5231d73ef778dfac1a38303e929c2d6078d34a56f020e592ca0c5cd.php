@@ -31,10 +31,10 @@ class __TwigTemplate_4f44e89298eef850bd195d7aebc79fe610ef695bd3295d5e998e0a4ef92
         // line 5
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", array()), "meta_description", array()), "html", null, true);
         echo "\">
-        <link rel=\"stylesheet\" href=\"https://bootswatch.com/4/sandstone/bootstrap.min.css\">
+        <link rel=\"stylesheet\" href=\"https://bootswatch.com/3/sandstone/bootstrap.min.css\">
         <link rel=\"stylesheet\" href=\"";
         // line 7
-        echo "assets/css/theme.css|theme";
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/css/theme.css");
         echo "\">
         ";
         // line 8
@@ -106,8 +106,8 @@ class __TwigTemplate_4f44e89298eef850bd195d7aebc79fe610ef695bd3295d5e998e0a4ef92
     <head>
         <title>Acme - {{this.page.title}}</title>
         <meta name=\"description\" content=\"{{this.page.meta_description}}\">
-        <link rel=\"stylesheet\" href=\"https://bootswatch.com/4/sandstone/bootstrap.min.css\">
-        <link rel=\"stylesheet\" href=\"{{ 'assets/css/theme.css|theme' }}\">
+        <link rel=\"stylesheet\" href=\"https://bootswatch.com/3/sandstone/bootstrap.min.css\">
+        <link rel=\"stylesheet\" href=\"{{ 'assets/css/theme.css'|theme }}\">
         {% styles %}
     </head>
     <body>

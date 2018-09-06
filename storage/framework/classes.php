@@ -17,4 +17,7 @@
   'RainLab\\Blog\\Components\\Post' => 'plugins\\rainlab\\blog\\components\\Post.php',
   'RainLab\\Blog\\Components\\Categories' => 'plugins\\rainlab\\blog\\components\\Categories.php',
   'RainLab\\Blog\\Components\\RssFeed' => 'plugins\\rainlab\\blog\\components\\RssFeed.php',
+  'rainlab\\blog\\Controllers\\posts' => 'plugins\\rainlab\\blog\\controllers\\posts.php',
+  'RainLab\\Blog\\Models\\PostImport' => 'plugins\\rainlab\\blog\\models\\PostImport.php',
+  'RainLab\\Blog\\Models\\PostExport' => 'plugins\\rainlab\\blog\\models\\PostExport.php',
 );
