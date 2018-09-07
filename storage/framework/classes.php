@@ -20,4 +20,6 @@
   'rainlab\\blog\\Controllers\\posts' => 'plugins\\rainlab\\blog\\controllers\\posts.php',
   'RainLab\\Blog\\Models\\PostImport' => 'plugins\\rainlab\\blog\\models\\PostImport.php',
   'RainLab\\Blog\\Models\\PostExport' => 'plugins\\rainlab\\blog\\models\\PostExport.php',
+  'tomo\\resources\\Plugin' => 'plugins\\tomo\\resources\\Plugin.php',
+  'Tomo\\Resources\\Components\\Links' => 'plugins\\tomo\\resources\\components\\Links.php',
 );
